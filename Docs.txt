@@ -1,0 +1,57 @@
+Entities
+
+Users
+GET
+POST
+PUT
+DELETE
+
+
+Cards
+GET
+GET By ID
+POST
+PUT
+
+
+DB
+
+Users
+-------
+Id
+Email
+Username
+Password
+IsDeveloper
+
+Cards
+------
+Id
+Title
+Description
+ImageUrl
+CreatedBy
+CreatedAt
+UpdatedAt
+
+
+SOLO 1 RATING POR USUARIO DEL 1 AL 5
+Ratings
+-------
+CardId
+UserId
+Rating
+
+
+
+Comments
+--------
+CardId
+UserId
+Comment
+
+
+AGREGAR PAGINACION
+
+CUANDO OBTENGAMOS UNA CARD, HAY QUE PROMEDIAR SUS CALIFICACIONES
+
